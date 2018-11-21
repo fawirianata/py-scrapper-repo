@@ -1,0 +1,20 @@
+ uu[0].find_all('a',href=True)[0].get('href')
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Undang-Undang/undang-undang-republik-indonesia-nomor-6-tahun-2017-69491'
+>>> uu[0].find_all('a',href=True)[0].get_text()
+'UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 6 TAHUN 2017'
+>>> uu[0].find_all('p')[0].get_text()
+'TENTANG ARSITEK'
+
+urlScrap=['http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Undang-Undang',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Perpu',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Peraturan-Pemerintah',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Peraturan-Presiden',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Keputusan-Presiden',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Peraturan-Menteri-Negara',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Keputusan-Menteri-Negara',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Instruksi-Menteri-Negara',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Peraturan-Menteri-ATR-Kepala-BPN',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Keputusan-Menteri-ATR-Kepala-BPN',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Surat-Edaran',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Peraturan-Lain',
+'http://www.atrbpn.go.id/Publikasi/Peraturan-Perundangan/Nota-Kesepahaman-MoU']
